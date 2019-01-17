@@ -1,0 +1,58 @@
+/* 
+    Created on : Sep 4, 2017, 6:37:43 PM
+    Author     : liisa auer
+*/
+
+/* css reset in another file */
+@import 'css-reset.css';
+
+/* my styles */
+
+div {
+    padding: 2em;
+    font-family: tahoma;
+}
+
+div.palsta {
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1em;
+}
+
+h1 { 
+    font-size: 1.5em;
+    color: red;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+}
+
+section {
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-top: 0.5em;
+    width: 15em;
+    border-top: 1px dashed blue;
+}
+
+button {
+    display: block; /* näytetään block-elementtinä */
+    margin-bottom: 0.5em;
+}
+
+label {
+    margin-bottom: 0.5em;
+    width: 6em;
+    display: inline-block; /* näytetään block-elementtinä */
+}
+
+input {
+    width: 6em;
+}
+
+p {
+    line-height: 1.2em;
+    padding-bottom: 0.5em;
+}

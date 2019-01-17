@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Valintaharjoituksia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/tyylit.css" />
+    </head>
+    <body>
+        <div>
+            <h1>Valintaharjoituksia</h1>
+            <div class="palsta">
+ 
+                <section>
+                    <h2>Tehtävä V1: Portsari</h2> 
+                    <label for="svuosi">Synt.vuosi:</label><input type="number" id="svuosi" />
+                    <button onclick="tehtava_v01()">Sisäänpääsy</button>
+                    <p id="portsari">&nbsp;</p>                
+                </section>
+
+                <section>
+                    <h2>Tehtävä V2 ja V3: Luvut</h2> 
+                    <label for="luku1">Luku 1:</label><input type="number" id="luku1" />
+                    <label for="luku2">Luku 2:</label><input type="number" id="luku2" />
+                    <button onclick="tehtava_v02()">Pienempi luku</button>
+                    <button onclick="tehtava_v03()">Tulos</button>
+                    <p id="pienempi">&nbsp;</p>
+                    <p id="negatiivinen">&nbsp;</p>
+                </section>
+                
+                <section>
+                    <h2>Tehtävä V4: Neliö</h2> 
+                    <label for="sivu1">Sivu 1:</label><input type="number" id="sivu1" />
+                    <label for="sivu2">Sivu 2:</label><input type="number" id="sivu2" />
+                    <button onclick="tehtava_v04()">Neliö</button>
+                    <p id="ruutu">&nbsp;</p>                
+                </section>                
+                
+
+            </div>
+            <div class="palsta">
+                <section>
+                    <h2>Tehtävä V5: Pariton vai parillinen</h2>
+                    <h2>Tehtävä V6: Positiivinen vai negatiivinen</h2>
+                    <label for="luku3">Luku:</label><input type="number" id="luku3" />
+                    <button onclick="tehtava_v05()">Paritonko</button>
+                    <button onclick="tehtava_v06()">Positiivinenko</button>
+                    <p id="pariton">&nbsp;</p>
+                    <p id="positiivinen">&nbsp;</p>
+                </section>
+
+                <section>
+                    <h2>Tehtävä V7: Pienin</h2> 
+                    <label for="sivu1">Luku A:</label><input type="number" id="lukua" />
+                    <label for="sivu2">Luku B:</label><input type="number" id="lukub" />
+                    <label for="sivu2">Luku C:</label><input type="number" id="lukuc" />
+                    <button onclick="tehtava_v07()">Pienin</button>
+                    <p id="pienin">&nbsp;</p>                
+                </section> 
+
+                <section>
+                    <h2>Tehtävä V8: Karkausvuosi</h2> 
+                    <label for="vuosi">Vuosi:</label><input type="number" id="vuosi" />
+                    <button onclick="tehtava_v08()">Karkausvuosi</button>
+                    <p id="karkausvuosi">&nbsp;</p>                
+                </section>
+            </div>
+        </div>
+        <script src="js/omat.js"></script>
+
+    </body>
+</html>
